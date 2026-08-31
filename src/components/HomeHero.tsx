@@ -14,7 +14,7 @@ export function HomeHero() {
     <section className="home-hero" aria-labelledby="home-hero-title">
       <img
         className="home-hero__image"
-        src={`${import.meta.env.BASE_URL}brand/ras-mark.jpg`}
+        src={`${import.meta.env.BASE_URL}images/response-able-vehicle-logistics-hero.webp`}
         alt="Professional vehicle logistics driver beside a vehicle transporter at a dealership"
       />
       <div className="home-hero__overlay" />
