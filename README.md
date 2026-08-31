@@ -2,6 +2,8 @@
 
 Private redesign concept for Response-Able Solutions Ltd.
 
+This project is also known as Demo-RAS.
+
 Step 2 contains the React, TypeScript and Vite foundation. It includes the
 brand system, reusable header and footer, responsive navigation and a temporary
 foundation page. No production systems, customer records or company accounts
