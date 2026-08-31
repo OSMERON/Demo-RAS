@@ -193,7 +193,8 @@ function vehicleLookupPlugin(environment: Environment): Plugin {
 export default defineConfig(({ mode }) => {
   const environment = loadEnv(mode, ".", "");
 
-  return {
+  return { 
+    base: "/Demo-RAS/",
     plugins: [react(), vehicleLookupPlugin(environment)],
   };
 });
