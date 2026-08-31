@@ -7,7 +7,7 @@ export function BrandMark({ compact = false }: BrandMarkProps) {
     <span className="brand-mark" aria-label="Response-Able Solutions">
       <img
         className="brand-mark__image"
-        src={`${import.meta.env?.VITE_BASE_URL}brand/ras-mark.jpg`}
+        src={`${import.meta.env.BASE_URL}brand/ras-mark.jpg`}
         alt=""
         width="56"
         height="56"
