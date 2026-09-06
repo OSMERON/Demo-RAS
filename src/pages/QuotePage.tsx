@@ -21,6 +21,7 @@ import {
   isValidUkPostcode,
 } from "../services/distanceService";
 import {
+  DEMO_REGISTRATIONS,
   formatRegistrationNumber,
   type VerifiedVehicle,
   verifyVehicleRegistration,
@@ -381,7 +382,7 @@ export function QuotePage() {
                 </div>
 
                 <p className="vehicle-verification__demo">
-                  Use <strong>AA19AAA</strong> to preview the verification journey before live DVSA credentials are connected.
+                  Use <strong>{DEMO_REGISTRATIONS.join(", ")}</strong> to preview the vehicle and MOT verification journey before live DVSA credentials are connected.
                 </p>
 
                 {verificationError && (
